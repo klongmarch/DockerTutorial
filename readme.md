@@ -2,6 +2,7 @@ Instructions from:
 https://docs.docker.com/get-started/part2/
 
 to run, do this:
+
 docker build --tag=friendlyhello .
 
 docker image ls
