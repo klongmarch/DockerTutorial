@@ -18,6 +18,7 @@ docker run -d -p 4000:80 friendlyhello
 docker container ls
 
 Share your image
+
 $ docker login
 
 docker tag image username/repository:tag
