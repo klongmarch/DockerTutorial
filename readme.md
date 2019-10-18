@@ -51,4 +51,6 @@ In the same directory, issue command:
 
 docker-compose up
 
+To shutdown all the containers in docker-compose.yml
 
+docker-compose down
