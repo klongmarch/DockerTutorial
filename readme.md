@@ -25,10 +25,12 @@ $ docker image ls
 
 Publish the image
 Upload your tagged image to the repository:
+
 docker push username/repository:tag
 
 Pull and run the image from the remote repository
 From now on, you can use docker run and run your app on any machine with this command:
+
 docker run -p 4000:80 username/repository:tag
 
 docker run -p 4000:80 gordon/get-started:part2
