@@ -40,3 +40,15 @@ From now on, you can use docker run and run your app on any machine with this co
 docker run -p 4000:80 username/repository:tag
 
 docker run -p 4000:80 gordon/get-started:part2
+
+==========================
+
+to use docker-compose.yml
+
+save the docker-compose.yml file to current directory.
+
+In the same directory, issue command:
+
+docker-compose up
+
+
