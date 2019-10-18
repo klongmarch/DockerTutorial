@@ -12,6 +12,7 @@ docker run -p 4000:80 friendlyhello
 curl http://localhost:4000
 
 Now let’s run the app in the background, in detached mode:
+
 docker run -d -p 4000:80 friendlyhello
 
 docker container ls
