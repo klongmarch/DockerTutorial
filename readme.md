@@ -16,7 +16,9 @@ Share your image
 $ docker login
 
 docker tag image username/repository:tag
+
 For example:
+
 docker tag friendlyhello gordon/get-started:part2
 
 $ docker image ls
