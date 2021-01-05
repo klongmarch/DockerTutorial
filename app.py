@@ -3,6 +3,10 @@ from redis import Redis, RedisError
 import os
 import socket
 
+# below does not work.
+# try the code in this link:
+# https://medium.com/better-programming/dockerizing-and-pythonizing-redis-41b1340979de
+
 # Connect to Redis
 redis = Redis(host="redis", db=0, socket_connect_timeout=2, socket_timeout=2)
 
